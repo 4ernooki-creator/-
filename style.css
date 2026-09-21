@@ -79,3 +79,19 @@ button:hover {
   transform: scale(1.1); 
   background: rgb(0, 155, 26); 
 }
+ body {
+            /* Путь к вашему изображению */
+            background-image: url('im.jpg');
+            
+            /* Отключаем повторение картинки */
+            background-repeat: no-repeat;
+            
+            /* Растягиваем на весь экран */
+            background-size: cover;
+            
+            /* Центрируем изображение */
+            background-position: center;
+            
+            /* Фиксируем фон при прокрутке (по желанию) */
+            background-attachment: fixed;
+        }
